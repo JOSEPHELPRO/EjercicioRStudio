@@ -1,4 +1,4 @@
-N <- as.numeric(readline(prompt = "Introduce un número N: "))
+N <- as.numeric(dlgInput("Introduce un número N:")$res)
 
 factorial <- 1
 for (i in 1:N) {
